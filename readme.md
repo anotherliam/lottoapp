@@ -5,11 +5,11 @@ I don't see any reason why it wouldn't work on iOS, as I don't believe im using 
 
 ## Running
 Once React Native is set up:
-from the command line in the main directory:
-Start an Android emulator from Android Studio, or connect an Android phone via usb
-run `yarn` to install packages
-run `yarn start` to start metro
-from another command line window or tab, run `yarn react-native run-android`
+* Start an Android emulator from Android Studio, or connect an Android phone via usb
+* cd to the root of the project
+* Run `yarn` to install packages
+* Run `yarn start` to start metro
+* From another command line window, run `yarn react-native run-android`
 
 ## Setup React Native
 https://reactnative.dev/docs/environment-setup
