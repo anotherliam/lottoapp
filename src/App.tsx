@@ -1,13 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * Generated with the TypeScript template
- * https://github.com/react-native-community/react-native-template-typescript
- *
- * @format
- */
-
 import React, { useState } from "react";
 import {
   SafeAreaView,
@@ -18,8 +8,6 @@ import OpenDrawsScreeen from "./OpenDrawsScreen";
 import ResultsScreen from "./ResultsScreen"
 import TabList, { Tab } from "./TabList";
 import UserBar from "./UserBar";
-
-
 
 declare const global: { HermesInternal: null | {} };
 

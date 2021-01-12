@@ -26,6 +26,7 @@ const UserImage = styled.Image({
 
 /**
  * This component displays a Title Bar + a 'profile' image that can be changed by pressing it.
+ * Using react-native-image-picker for camera access.
  */
 
 const UserBar: React.FC = () => {
@@ -50,7 +51,7 @@ const UserBar: React.FC = () => {
     return (
         <Container>
             <Title>Lotto</Title>
-            <TouchableOpacity onPress={handlePressImage}>
+            <TouchableOpacity disabled={selecting} onPress={handlePressImage}>
                 <UserImage source={imageSource} />
             </TouchableOpacity>
         </Container>

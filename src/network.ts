@@ -55,6 +55,11 @@ const parseAndSortResult = <T extends { DrawDate: string }>(items: T[]): T[] => 
 };
 
 /**
+ * Actual network requests:
+ */
+
+
+/**
  * Returns a promise to an array of future draws, sorted by date.
  */
 export const fetchDraws = async (): Promise<LottoDraw[]> => {

@@ -5,12 +5,10 @@ import { fetchResults, LottoResult } from "./network";
 import LogoImage from "./LogoImage";
 import ListItemContainer from "./ListItemContainer";
 
-
 const NumberRow = styled.View({
     flexDirection: "row",
     flexWrap: "wrap"
 });
-
 const NumberWrapper = styled.View({
     margin: 4,
     padding: 4,

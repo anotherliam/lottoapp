@@ -1,5 +1,9 @@
 import styled from "@emotion/native";
 
+/**
+ * List Item for both draws and results
+ */
+
 interface ListItemContainerProps { refreshing: boolean; }
 const ListItemContainer = styled.View(({ refreshing }: ListItemContainerProps) => ({
     flexDirection: "row",
