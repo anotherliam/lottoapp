@@ -1,9 +1,13 @@
 # React Native App that fetches both upcoming and previous draws from thelott.com
 
 This App has only been tested on Android, as I do not own a Mac or an iPhone.
+
 I don't see any reason why it wouldn't work on iOS, as I don't believe im using any platform specific code.
+
 Its written in Typescript, and uses Jest for Testing.
+
 @emotion/native styled components are used for component styling.
+
 react-native-image-picker is used for accessing the camera (A 'Profile' image can be added by pressing the + in the top right corner)
 
 ## Running
@@ -42,5 +46,4 @@ Tick 'Show Package' details, and install Android SDK Platform 29 and Google APIs
 * Add platform-tools to path
 Choose the 'Path' user environment variable, click edit, then add '%LOCALAPPDATA%\Android\Sdk\platform-tools'
 
-Powershell need to be restarted for changes to apply.
-
+Powershell needs to be restarted for changes to apply.
